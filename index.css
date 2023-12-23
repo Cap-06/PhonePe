@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image:url("https://www.schemecolor.com/wallpaper?i=16347&desktop") ;
+  }
+
+  #paymentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  #processing {
+    display: none;
+    font-size: 20px;
+    color: rgb(48, 248, 4);
+    margin-bottom: 20px;
+  }
+
+  #success, #failure {
+    display: none;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: blue;
+    
+  }
+
+  #success {
+    color: rgb(3, 252, 3);
+  }
+
+  #failure {
+    color: red;
+  }
+  #logo{
+    padding: 60px;
+  }
+ button:hover{
+    animation: 50px;
+ }
